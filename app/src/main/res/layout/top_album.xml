@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="@color/back"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="1dp"
+        android:background="@color/back"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19999999">
+
+        <ImageView
+            android:id="@+id/image_joy"
+            android:layout_width="145dp"
+            android:layout_height="145dp"
+            app:srcCompat="@drawable/img_6" />
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="124dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/wake_up_songs"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

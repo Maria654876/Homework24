@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Music Time</string>
+    <string name="wake_up_songs">Wake Up songs</string>
+    <string name="classic">Classic</string>
+    <string name="guitar_solo">Guitar solo</string>
+    <string name="recommended_playlists">Recommended playlists</string>
+    <string name="indie_rock">Indie Rock</string>
+    <string name="acoustics">Аcoustics</string>
+    <string name="dram_base">Dram and Base</string>
+    <string name="music_time">Music Time</string>
+    <string name="home">Home</string>
+    <string name="explore">Explore</string>
+    <string name="library">Library</string>
+    <string name="Home">Home</string>
+    <string name="Your_favourites">Your favourites</string>
+    <string name="Explore">Explore</string>
+    <string name="Library">Library</string>
+    <string name="success">Success</string>
+</resources>
